@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Love Message</title>
+    <style>
+        body {
+            background-color: #fce4ec;
+            color: #d81b60;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 20vh;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+        p {
+            font-size: 1.5em;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="message"></h1>
+    <p>❤️ คิดถึงเธอเสมอ ❤️</p>
+
+    <script>
+        const yourName = "ซัน";
+        const myName = "ชามิก";
+        const message = `${myName} ❤️ ${yourName} ตลอดไป`;
+        document.getElementById("message").innerText = message;
+    </script>
+</body>
+</html>
